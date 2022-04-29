@@ -1,0 +1,96 @@
+.modal-content{
+    top:1px;
+}
+.close{
+    border-top-left-radius: 0 !important;
+    border-top-right-radius: 0 !important;
+
+    border-bottom-left-radius:20px !important;
+    border-bottom-right-radius: 20px !important;
+
+}
+.btnInProject {
+    font-size: 14px !important;
+}
+
+.year {
+    font-size: small !important;
+    text-align: right;
+}
+
+.uniName {
+    margin-bottom: 0px !important;
+}
+
+@media (max-width: 992px) {
+
+    .uniName {
+        font-size: small !important;
+    }
+
+    .year {
+        font-size: x-small !important;
+    }
+
+    .projectName {
+        font-size: 15px !important;
+    }
+
+    .projectDes {
+        font-size: 14px !important;
+    }
+
+    .btn {
+        font-size: 11px !important;
+    }
+
+    .job-title {
+        font-size: smaller !important;
+    }
+
+    .job-desc {
+        font-size: 12px !important;
+
+    }
+
+    .additional {
+        font-size: 12px !important;
+    }
+
+    .publicationSamples p {
+        font-size: 12px !important;
+    }
+
+    .cert-title {
+        font-size: 14px !important;
+    }
+
+    #about p {
+        font-size: 15px !important;
+    }
+}
+
+@media (max-width: 767px) {
+
+    #contact {
+        text-align: left !important;
+    }
+
+    #about {
+        margin-top: 20px !important;
+    }
+
+}
+
+@media (max-width: 576px) {
+
+    .btn {
+        font-size: 10px !important;
+    }
+
+    .contactlogoname {
+        font-size: 13px !important;
+    }
+
+}
+
